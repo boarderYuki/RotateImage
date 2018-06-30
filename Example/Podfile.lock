@@ -1,0 +1,16 @@
+PODS:
+  - RotateImage (0.1.0)
+
+DEPENDENCIES:
+  - RotateImage (from `../`)
+
+EXTERNAL SOURCES:
+  RotateImage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RotateImage: f1e665072aed0709665a30c6db1b2f8012225329
+
+PODFILE CHECKSUM: 787115d6e4c2bec1e4258a807c24f017598d9688
+
+COCOAPODS: 1.2.1

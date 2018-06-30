@@ -1,0 +1,6 @@
+framework module RotateImage {
+  umbrella header "RotateImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

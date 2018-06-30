@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		1BE52F5744571B520F452252 /* Pods_RotateImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RotateImage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2048D137E80612A373A95301 /* RotateImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RotateImage.podspec; path = ../RotateImage.podspec; sourceTree = "<group>"; };
-		230C10C21F3199F3BA866D7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2048D137E80612A373A95301 /* RotateImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RotateImage.podspec; path = ../RotateImage.podspec; sourceTree = "<group>"; };
+		230C10C21F3199F3BA866D7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4DBBAB38B40005016BF74663 /* Pods-RotateImage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotateImage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RotateImage_Example/Pods-RotateImage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RotateImage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateImage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6233C4D9C19415A829931846 /* Pods-RotateImage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotateImage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RotateImage_Example/Pods-RotateImage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9EA27C25C4B9434FBF661B58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9EA27C25C4B9434FBF661B58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A0978B7E5F9BF2281BF24547 /* Pods_RotateImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RotateImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04F27C163E5F162C9123E47 /* Pods-RotateImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotateImage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RotateImage_Tests/Pods-RotateImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7E3885DC04A6BD608746795 /* Pods-RotateImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotateImage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RotateImage_Tests/Pods-RotateImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LGG4PHM8YL;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -508,6 +509,7 @@
 			baseConfigurationReference = 4DBBAB38B40005016BF74663 /* Pods-RotateImage_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LGG4PHM8YL;
 				INFOPLIST_FILE = RotateImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +525,7 @@
 			baseConfigurationReference = 6233C4D9C19415A829931846 /* Pods-RotateImage_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LGG4PHM8YL;
 				INFOPLIST_FILE = RotateImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
