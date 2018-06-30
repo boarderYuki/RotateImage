@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RotateImage_Example' do
+  pod 'RotateImage', :path => '../'
+
+  target 'RotateImage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
