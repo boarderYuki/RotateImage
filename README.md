@@ -22,7 +22,7 @@ pod 'RotateImage'
 
 ## Author
 
-yuki.kr@gmail.com, yuki.kr@gmail.com
+boarderYuki, yuki.kr@gmail.com
 
 ## License
 

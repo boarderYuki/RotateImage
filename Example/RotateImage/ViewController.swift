@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import RotateImage
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print(Date.today())
+        
+        let test = RotateImage()
+            test.testLog()
     }
 
     override func didReceiveMemoryWarning() {

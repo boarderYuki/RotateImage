@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_RotateImage_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RotateImage_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_RotateImage_Example_RotateImage_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_RotateImage_Example_RotateImage_TestsVersionString[];
 

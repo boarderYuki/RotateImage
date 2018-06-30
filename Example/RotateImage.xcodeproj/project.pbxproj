@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FD5E2F188CA53E05F2F5E41 /* Pods_RotateImage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0978B7E5F9BF2281BF24547 /* Pods_RotateImage_Tests.framework */; };
+		2B759387823A8C0FDC864D1A /* Pods_RotateImage_Example_RotateImage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D0D4438923DE99C440A3C0 /* Pods_RotateImage_Example_RotateImage_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		E74B8C1002F2FB73E4F9DD62 /* Pods_RotateImage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE52F5744571B520F452252 /* Pods_RotateImage_Example.framework */; };
+		9F4B9336C62EAC6624C5DA08 /* Pods_RotateImage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC46ADADA8393065C9917D3 /* Pods_RotateImage_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BE52F5744571B520F452252 /* Pods_RotateImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RotateImage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA222B3D6BE3C322EDA839A /* Pods-RotateImage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotateImage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RotateImage_Example/Pods-RotateImage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2048D137E80612A373A95301 /* RotateImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RotateImage.podspec; path = ../RotateImage.podspec; sourceTree = "<group>"; };
 		230C10C21F3199F3BA866D7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4DBBAB38B40005016BF74663 /* Pods-RotateImage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotateImage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RotateImage_Example/Pods-RotateImage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		24B843F20AF864DEAB28732B /* Pods-RotateImage_Example-RotateImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotateImage_Example-RotateImage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RotateImage_Example-RotateImage_Tests/Pods-RotateImage_Example-RotateImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2946CD1C9DD5F827057D610E /* Pods-RotateImage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotateImage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RotateImage_Example/Pods-RotateImage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5FC46ADADA8393065C9917D3 /* Pods_RotateImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RotateImage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* RotateImage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateImage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +44,9 @@
 		607FACE51AFB9204008FA782 /* RotateImage_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateImage_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6233C4D9C19415A829931846 /* Pods-RotateImage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotateImage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RotateImage_Example/Pods-RotateImage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9EA27C25C4B9434FBF661B58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A0978B7E5F9BF2281BF24547 /* Pods_RotateImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RotateImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C04F27C163E5F162C9123E47 /* Pods-RotateImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotateImage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RotateImage_Tests/Pods-RotateImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C7E3885DC04A6BD608746795 /* Pods-RotateImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotateImage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RotateImage_Tests/Pods-RotateImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E7D0D4438923DE99C440A3C0 /* Pods_RotateImage_Example_RotateImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RotateImage_Example_RotateImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F6F28966469D19A8DBDBFD /* Pods-RotateImage_Example-RotateImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotateImage_Example-RotateImage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RotateImage_Example-RotateImage_Tests/Pods-RotateImage_Example-RotateImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E74B8C1002F2FB73E4F9DD62 /* Pods_RotateImage_Example.framework in Frameworks */,
+				9F4B9336C62EAC6624C5DA08 /* Pods_RotateImage_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,18 +62,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FD5E2F188CA53E05F2F5E41 /* Pods_RotateImage_Tests.framework in Frameworks */,
+				2B759387823A8C0FDC864D1A /* Pods_RotateImage_Example_RotateImage_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4CD3223128EE3413924DE18E /* Frameworks */ = {
+		4C3F39D56D09A2655E6874F0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1BE52F5744571B520F452252 /* Pods_RotateImage_Example.framework */,
-				A0978B7E5F9BF2281BF24547 /* Pods_RotateImage_Tests.framework */,
+				2946CD1C9DD5F827057D610E /* Pods-RotateImage_Example.debug.xcconfig */,
+				1FA222B3D6BE3C322EDA839A /* Pods-RotateImage_Example.release.xcconfig */,
+				F9F6F28966469D19A8DBDBFD /* Pods-RotateImage_Example-RotateImage_Tests.debug.xcconfig */,
+				24B843F20AF864DEAB28732B /* Pods-RotateImage_Example-RotateImage_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		571DA3D117A2D97BF7424DBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FC46ADADA8393065C9917D3 /* Pods_RotateImage_Example.framework */,
+				E7D0D4438923DE99C440A3C0 /* Pods_RotateImage_Example_RotateImage_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,8 +96,8 @@
 				607FACD21AFB9204008FA782 /* Example for RotateImage */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				686392444522D9192CBB76D2 /* Pods */,
-				4CD3223128EE3413924DE18E /* Frameworks */,
+				4C3F39D56D09A2655E6874F0 /* Pods */,
+				571DA3D117A2D97BF7424DBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,17 +159,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		686392444522D9192CBB76D2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4DBBAB38B40005016BF74663 /* Pods-RotateImage_Example.debug.xcconfig */,
-				6233C4D9C19415A829931846 /* Pods-RotateImage_Example.release.xcconfig */,
-				C04F27C163E5F162C9123E47 /* Pods-RotateImage_Tests.debug.xcconfig */,
-				C7E3885DC04A6BD608746795 /* Pods-RotateImage_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RotateImage_Example" */;
 			buildPhases = (
-				4D70C57CB23E2A49230C3C96 /* [CP] Check Pods Manifest.lock */,
+				61681AAC8604BCF9728F45CF /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				2C3AA3A6DABC61009AEEBE10 /* [CP] Embed Pods Frameworks */,
-				E517CA439B139E0A7BFBE6A1 /* [CP] Copy Pods Resources */,
+				1F604C3C4B40BA2A8A5BCE13 /* [CP] Embed Pods Frameworks */,
+				9B5960E3CB080EAE6A594B0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RotateImage_Tests" */;
 			buildPhases = (
-				ED478F991261E54745F7B8D7 /* [CP] Check Pods Manifest.lock */,
+				829C2988A4BB2616D41E7ACE /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				B63A60F2FDC9EEDB0950EAF8 /* [CP] Embed Pods Frameworks */,
-				CC1544C28092D7B025772DAA /* [CP] Copy Pods Resources */,
+				839AE7BB1CB65886DF337810 /* [CP] Embed Pods Frameworks */,
+				40E24EDF4D4AC5381E116B99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,7 +265,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2C3AA3A6DABC61009AEEBE10 /* [CP] Embed Pods Frameworks */ = {
+		1F604C3C4B40BA2A8A5BCE13 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,7 +280,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RotateImage_Example/Pods-RotateImage_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4D70C57CB23E2A49230C3C96 /* [CP] Check Pods Manifest.lock */ = {
+		40E24EDF4D4AC5381E116B99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RotateImage_Example-RotateImage_Tests/Pods-RotateImage_Example-RotateImage_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61681AAC8604BCF9728F45CF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,7 +310,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B63A60F2FDC9EEDB0950EAF8 /* [CP] Embed Pods Frameworks */ = {
+		829C2988A4BB2616D41E7ACE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		839AE7BB1CB65886DF337810 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,25 +337,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RotateImage_Tests/Pods-RotateImage_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RotateImage_Example-RotateImage_Tests/Pods-RotateImage_Example-RotateImage_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CC1544C28092D7B025772DAA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RotateImage_Tests/Pods-RotateImage_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E517CA439B139E0A7BFBE6A1 /* [CP] Copy Pods Resources */ = {
+		9B5960E3CB080EAE6A594B0F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,21 +353,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RotateImage_Example/Pods-RotateImage_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ED478F991261E54745F7B8D7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -506,7 +506,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DBBAB38B40005016BF74663 /* Pods-RotateImage_Example.debug.xcconfig */;
+			baseConfigurationReference = 2946CD1C9DD5F827057D610E /* Pods-RotateImage_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LGG4PHM8YL;
@@ -522,7 +522,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6233C4D9C19415A829931846 /* Pods-RotateImage_Example.release.xcconfig */;
+			baseConfigurationReference = 1FA222B3D6BE3C322EDA839A /* Pods-RotateImage_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LGG4PHM8YL;
@@ -538,7 +538,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C04F27C163E5F162C9123E47 /* Pods-RotateImage_Tests.debug.xcconfig */;
+			baseConfigurationReference = F9F6F28966469D19A8DBDBFD /* Pods-RotateImage_Example-RotateImage_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -560,7 +560,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7E3885DC04A6BD608746795 /* Pods-RotateImage_Tests.release.xcconfig */;
+			baseConfigurationReference = 24B843F20AF864DEAB28732B /* Pods-RotateImage_Example-RotateImage_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
