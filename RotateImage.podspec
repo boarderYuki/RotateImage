@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A simple rotate image.
+A simple rotate image for beginner.
                        DESC
 
   s.homepage         = 'https://github.com/boarderYuki/RotateImage'
